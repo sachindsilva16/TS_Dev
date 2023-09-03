@@ -18,13 +18,25 @@
 // }
 // console.log(c);
 // console.log("Welcome to TypeScript - Strictly on data type - Updated");
+//# sourceMappingURL=script.js.map
+
+
+
 function compare(n1, n2) {
-    if (n1 > n2) {
-        console.log("n1 is greater");
-    }
-    else {
-        console.log("n2 is greater");
+
+    console.log(typeof(n1));
+    console.log(typeof(n2));
+
+    if(typeof(n1) === "number" && typeof(n2) === "number"){
+        if (n1 > n2) {
+            console.log("n1 is greater than n2");
+        } else {
+    
+            console.log("n2 is greater than n1");
+        }
+    } else {
+        console.log("Invalid input");
     }
 }
-compare(1, "S");
-//# sourceMappingURL=script.js.map
+
+compare(2,"1");
