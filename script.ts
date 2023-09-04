@@ -47,4 +47,62 @@ function compare(n1 : number,n2 : number){
     
 }
 
-compare(1,"S");
+// compare(1,2);
+
+function concat(s1:string,s2:string){
+
+    console.log(s1 +" "+s2);
+}
+
+
+// concat("Hi","Sachin");
+
+
+let registered : boolean = 1 < 2; //  This wont throw an error since output of 1 < 2 is boolean.
+
+// console.log(registered);
+
+
+
+// let n : bigint  = 9007199254740992n;
+
+
+// SYMBOL IN TYPESCRIPT
+
+
+// let s1 = Symbol("key1");
+// let s2 = Symbol("key1");
+
+// console.log(s1 === s2);
+
+
+// TS ASSIGNMENT : implicit vs explicit
+
+let n : number = 10; // Explicit type assignment
+
+
+let a = 20; // Implicit type assignment
+
+
+
+let num; // TS automatically declares "num" as "any" datatype if it is uninitialized..
+
+num = 10;
+
+num = "Sachin";
+
+num = true;
+
+
+
+let c = "123" + 4;
+
+console.log(typeof(c));
+
+
+
+
+
+
+
+
